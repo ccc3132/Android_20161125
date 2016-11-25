@@ -39,7 +39,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="좋아하는 애완동물은?"
+            android:text="좋아하는 안드로이드 버전은?"
             android:ems="10"
             android:id="@+id/editText2" />
 
@@ -72,7 +72,7 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="125dp"
+            android:layout_height="40dp"
             app:srcCompat="@drawable/jelly"
             android:id="@+id/imageView" />
 
