@@ -1,5 +1,6 @@
 package com.example.a403.myapplication;
 
+import android.support.annotation.CheckResult;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -81,13 +82,13 @@ public class MainActivity extends AppCompatActivity {
 
         button1.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                return;
+                finish();
             }
         });
 
         button2.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                System.exit(0);
+                layout2.setVisibility(View.GONE);
             }
         });
 
